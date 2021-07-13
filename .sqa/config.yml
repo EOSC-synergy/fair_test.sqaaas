@@ -11,5 +11,5 @@ sqa_criteria:
       this_repo:
         commands:
         - curl localhost
-        container: qc.fair_lanky-pumpkin-javanese
+        container: qc.fair_surly-cinnabar-dog
 timeout: 600
