@@ -1,13 +1,5 @@
 services:
-  proessing:
-    command: sleep 6000000
-    image: ferag/fair_eva:test
-    volumes:
-    - source: ./
-      target: /sqaaas-build
-      type: bind
-    working_dir: /sqaaas-build
-  qc.fair_surly-cinnabar-dog:
+  qc.fair_homey-jade-bobcat:
     command: sleep 6000000
     image: ferag/fair_eva:test
     volumes:
