@@ -10,6 +10,6 @@ sqa_criteria:
     repos:
       this_repo:
         commands:
-        - curl localhost
-        container: qc.fair_surly-cinnabar-dog
+        - /bin/curl localhost
+        container: qc.fair_homey-jade-bobcat
 timeout: 600
